@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Titulo del sitio -->
+    <title>Inicio | Sacred Street Wear</title>
+    <!-- Icono del sitio -->
+    <link rel="icon" href="imagenes/icono.ico" />
+    <!-- Etiquetas meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="street wear, indumentaria, calle, ropa, argentina, rosario, envios, accesorios, remeras, gorras, buzos, camperas"
+    />
+    <meta
+      name="description"
+      content="Sacred es una marca de ropa originada en Rosario, dónde queremos vestirte para que camines la calle 24/7. 
+      Realizamos envios a todo el país."
+    />
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/css_bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="css/estilosPropios.css" />
+    <!-- Fuente Utilizada -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- Logo Sacred Street Wear -->
+      <div class="imgHeader">
+        <a href="index.html"
+          ><img
+            id="logoHeader"
+            src="imagenes/Sacred-logo-inicio.png"
+            alt="Logo Sacred Street Wear"
+        /></a>
+      </div>
+
+      <!-- Iniciar sesion -->
+      <div class="inicioSesion">
+        <p>
+          <a class="linkUsuarios" href="#">Crear cuenta</a> |
+          <a class="linkUsuarios" href="#">Iniciar sesión</a>
+        </p>
+      </div>
+
+      <!-- Barra de busqueda -->
+      <div class="centrarBarraBusqueda">
+        <nav>
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Buscar"
+            aria-label="Search"
+          />
+        </nav>
+      </div>
+
+      <!-- Menú de Navegación -->
+      <nav>
+        <ul class="menuFlex">
+          <li><a href="index.html"> Inicio </a></li>
+          <li>
+            <a href="paginas/productos.html"> Productos </a>
+            <ul>
+              <li><a href="#">Remeras</a></li>
+              <li><a href="#">Camperas</a></li>
+              <li><a href="#">Buzos</a></li>
+              <li><a href="#">Accesorios</a></li>
+              <li><a href="#">Otros</a></li>
+            </ul>
+          </li>
+          <li><a href="paginas/contacto.html"> Contacto </a></li>
+          <li><a href="paginas/ofertas.html"> Ofertas </a></li>
+          <li><a href="paginas/talles.html"> Talles </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenido Principal de la página -->
+    <main>
+      <!-- Carrousel de imágenes -->
+      <div class="ocultarCarousel">
+        <div
+          id="carouselExampleDark"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="imagenes/carrousel-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p class="parrafoGrande">ENVÍOS GRATIS</p>
+                <p>En compras superiores a $10.000</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-truck"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="imagenes/carrousel-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p class="parrafoGrande">HASTA 12 CUOTAS</p>
+                <p>Con todas las tarjetas de crédito</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-credit-card"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"
+                  />
+                  <path
+                    d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="imagenes/carrousel-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p class="parrafoGrande">SITIO SEGURO</p>
+                <p>Tus datos siempre protegidos</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-lock"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <h1 class="flexCenter">INICIO</h1>
+
+      <!-- Comienzo de productos -->
+      <div class="ocultarTexto">
+        <div class="textoInicio">
+          <div class="textoInicio2">
+            <h3>ENVÍOS GRATIS</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-truck"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"
+              />
+            </svg>
+          </div>
+
+          <div class="textoInicio2">
+            <h3>HASTA 12 CUOTAS</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-credit-card"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"
+              />
+              <path
+                d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"
+              />
+            </svg>
+          </div>
+
+          <div class="textoInicio2">
+            <h3>SITIO SEGURO</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-lock"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <section class="grilla">
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/monograma.png"
+              alt="Remera Monograma"
+            />
+          </a>
+          <a href="#" id="linkDeProductos"> S.A.C Monogram $2.200 </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/noTrust.png"
+              alt="Remera Keep Your Eyes Open"
+            />
+          </a>
+          <a href="#" id="linkDeProductos">
+            No Trust <br />
+            $2.200
+          </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/streetWear.png"
+              alt="Remera Street Wear"
+            />
+          </a>
+          <a href="#" id="linkDeProductos"> S.C.R.D. St. Wear $2.200 </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/godless.png"
+              alt="Remera We are our own god"
+            />
+          </a>
+          <a href="#" id="linkDeProductos">
+            Godless<br />
+            $2.200
+          </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/monograma.png"
+              alt="Remera Monograma"
+            />
+          </a>
+          <a href="#" id="linkDeProductos"> S.A.C Monogram $2.200 </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/noTrust.png"
+              alt="Remera Keep Your Eyes Open"
+            />
+          </a>
+          <a href="#" id="linkDeProductos">
+            No Trust<br />
+            $2.200
+          </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/streetWear.png"
+              alt="Remera Street Wear"
+            />
+          </a>
+          <a href="#" id="linkDeProductos"> S.C.R.D. St. Wear $2.200 </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/godless.png"
+              alt="Remera We are our own god"
+            />
+          </a>
+          <a href="#" id="linkDeProductos">
+            Godless<br />
+            $2.200
+          </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/monograma.png"
+              alt="Remera Monograma"
+            />
+          </a>
+          <a href="#" id="linkDeProductos"> S.A.C Monogram $2.200 </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/noTrust.png"
+              alt="Remera Keep Your Eyes Open"
+            />
+          </a>
+          <a href="#" id="linkDeProductos">
+            No Trust<br />
+            $2.200
+          </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/streetWear.png"
+              alt="Remera Street Wear"
+            />
+          </a>
+          <a href="#" id="linkDeProductos"> S.C.R.D. St. Wear $2.200 </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+
+        <div class="cajaDeProductos">
+          <a href="#">
+            <img
+              class="escalarProducto"
+              src="imagenes/godless.png"
+              alt="Remera We are our own god"
+            />
+          </a>
+          <a href="#" id="linkDeProductos">
+            Godless<br />
+            $2.200
+          </a>
+          <a href="#">
+            <img
+              src="imagenes/agregarAlCarrito.png"
+              alt="boton agregar al carrito"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="sombreado">
+      <section>
+        <div>
+          <!-- Link a Facebook -->
+          <a href="https://www.facebook.com/gianfratestonihxc" target="_blank">
+            Facebook
+          </a>
+          <!-- Botón volver a inicio -->
+          <a href="index.html"
+            ><img src="imagenes/iconoSacred.png" alt="icono Sacred"
+          /></a>
+          <!-- Link a Instagram -->
+          <a
+            href="https://www.instagram.com/gianfranco.testoni"
+            target="_blank"
+          >
+            Instagram
+          </a>
+        </div>
+
+        <hr />
+
+        <div>
+          <!-- Derechos de autor -->
+          <p>
+            Copyright SACRED STREET WEAR - 2021. TODOS LOS DERECHOS RESERVADOS.
+          </p>
+        </div>
+      </section>
+    </footer>
+    <!-- JSCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

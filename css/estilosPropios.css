@@ -1,0 +1,200 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Estilo Header */
+.imgHeader {
+  display: block;
+  text-align: center; }
+
+#logoHeader {
+  max-width: 100%;
+  height: auto;
+  padding: 10px; }
+
+.inicioSesion {
+  text-align: center; }
+
+.linkUsuarios {
+  text-decoration: none;
+  color: white; }
+
+.centrarBarraBusqueda {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px; }
+
+.menuFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  padding-left: 0px; }
+
+ul {
+  list-style: none;
+  background-color: white;
+  width: 100%;
+  text-align: center; }
+  ul li {
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px; }
+    ul li a {
+      text-decoration: none;
+      color: black; }
+    ul li ul li {
+      display: none; }
+
+/* estilo cuerpo pagina */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 100%; }
+
+h1 {
+  background-color: white;
+  padding: 15px;
+  font-size: 35px;
+  color: black;
+  box-shadow: 0px 10px 25px inset #535353; }
+
+.parrafoGrande {
+  font-weight: bold;
+  font-size: 35px; }
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+h2 {
+  padding: 15px; }
+
+main {
+  background-image: url(../imagenes/fondoSitio.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+  main section {
+    padding: 15px;
+    margin: 15px; }
+
+.alinearCentro {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.textoInicio {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.textoInicio2 {
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.705);
+  width: 110px;
+  border-radius: 5%; }
+
+/* Productos en pantalla */
+.grilla {
+  display: grid;
+  grid-template-columns: 170px 170px 170px 170px;
+  grid-row-gap: 10px;
+  grid-column-gap: 8px;
+  justify-content: center; }
+
+.cajaDeProductos {
+  background-color: rgba(0, 0, 0, 0.705);
+  border-radius: 5%;
+  width: 170px;
+  height: 245px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  justify-self: center;
+  padding-top: 12px; }
+
+#linkDeProductos {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Montserrat", sans-serif; }
+
+.ocultarCarousel {
+  display: none; }
+
+.ocultarTexto {
+  display: none; }
+
+/* ANIMACIONES */
+.escalarProducto {
+  transform: scale; }
+
+.escalarProducto:hover {
+  transform: scale(1.05); }
+
+/* ESTILO FOOTER */
+footer {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  color: black;
+  align-items: center; }
+  footer section {
+    margin-top: 17px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    footer section div a {
+      margin: 15px;
+      color: black;
+      text-decoration: none; }
+
+.sombreado {
+  box-shadow: 0px -10px 25px inset #535353; }
+
+/* MEDIA QUERIES */
+/* SmartPhone Modo Vertical */
+@media only screen and (min-width: 320px) {
+  .grilla {
+    grid-template-columns: 175px 175px; }
+  .ocultarTexto {
+    display: block; } }
+
+/* SmartPhone Modo Horizontal */
+/* Tablet Pequeña Modo Vertical*/
+@media only screen and (min-width: 600px) {
+  .grilla {
+    grid-template-columns: 175px 175px 175px; } }
+
+/* Tablet 10´ Modo Vertical */
+@media only screen and (min-width: 768px) {
+  .grilla {
+    grid-template-columns: 175px 175px 175px 175px; }
+  .ocultarCarousel {
+    display: block; }
+  .ocultarTexto {
+    display: none; } }
+
+/* Tablet Horizontal y Deskstop */
+@media only screen and (min-width: 1024px) {
+  .grilla {
+    grid-template-columns: 175px 175px 175px 175px; }
+  .ocultarTexto {
+    display: none; } }
+
+/* Pantalla Panoramica*/
