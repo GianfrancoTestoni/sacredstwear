@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
+/* Variables */
+
+$negroConTransparencia:rgba(0, 0, 0, 0.705);
+
 /* Estilo Header */
 
 .imgHeader {
@@ -125,7 +130,7 @@ main {
 .textoInicio2 {
   display: inline-block;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.705);
+  background-color: $negroConTransparencia;
   width: 110px;
   border-radius: 5%;
 }
@@ -141,7 +146,7 @@ main {
 }
 
 .cajaDeProductos {
-  background-color: rgba(0, 0, 0, 0.705);
+  background-color: $negroConTransparencia;
   border-radius: 5%;
   width: 170px;
   height: 245px;
