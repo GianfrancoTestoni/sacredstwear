@@ -177,6 +177,21 @@ main {
 
 /* Productos ampliados */
 
+.ocultarH1 {
+  display: none;
+}
+
+.tituloProducto {
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.precioProducto {
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
 .grillaProductosExpandidos {
   display: grid;
   grid-template-columns: 600px 600px;
