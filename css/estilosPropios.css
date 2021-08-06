@@ -142,6 +142,12 @@ main {
 .ocultarTexto {
   display: none; }
 
+/* Productos ampliados */
+.grillaProductosExpandidos {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center; }
+
 /* ANIMACIONES */
 .escalarProducto {
   transform: scale; }
