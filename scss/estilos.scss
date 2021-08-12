@@ -5,7 +5,8 @@
 
 /* Variables */
 
-$negroConTransparencia:rgba(0, 0, 0, 0.705);
+$negroConTransparencia: rgba(0, 0, 0, 0.705);
+$celestito: hsla(180, 72, 37, 1);
 
 /* Estilo Header */
 
@@ -177,6 +178,18 @@ main {
 
 /* Productos ampliados */
 
+.botonCeleste {
+  background-color: $celestito;
+  border-color: $celestito;
+  color: white;
+}
+
+.links {
+  font-weight: lighter;
+  font-size: 13px;
+  color: $celestito;
+}
+
 .ocultarH1 {
   display: none;
 }
@@ -184,12 +197,12 @@ main {
 .tituloProducto {
   font-weight: bolder;
   font-size: 35px;
+  margin-bottom: 0px;
 }
 
 .precioProducto {
   font-weight: bold;
   font-size: 25px;
-
 }
 
 .grillaProductosExpandidos {
@@ -200,13 +213,18 @@ main {
   justify-content: center;
 }
 
+.productoAmpliado {
+  width: 500px;
+  height: 500px;
+}
+
 .costoEnvio {
   display: flex;
   flex-direction: row;
   width: 150px;
   height: 20px;
   align-self: center;
-  margin: 5px 0px 5px 0px;
+  margin: 30px 0px 5px 0px;
 }
 /* ANIMACIONES */
 
@@ -257,16 +275,32 @@ footer {
   .ocultarTexto {
     display: block;
   }
-}
+  
+  .grillaProductosExpandidos {
+    display: block;}
+  
+  .productoAmpliado {
+  width: 300px;
+  height: 300px;
+  }
+  }
 
 /* SmartPhone Modo Horizontal */
 @media only screen and (min-width: 480px) {
+  .productoAmpliado {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 /* Tablet Pequeña Modo Vertical*/
 @media only screen and (min-width: 600px) {
   .grilla {
     grid-template-columns: 175px 175px 175px;
+  }
+  .productoAmpliado {
+    width: 550px;
+    height: 550px;
   }
 }
 
@@ -282,6 +316,11 @@ footer {
   .ocultarTexto {
     display: none;
   }
+
+  .productoAmpliado{
+    width: 700px;
+    height: 700px;
+  }
 }
 
 /* Tablet Horizontal y Deskstop */
@@ -292,6 +331,15 @@ footer {
 
   .ocultarTexto {
     display: none;
+  }
+
+  .grillaProductosExpandidos {
+    display: grid;
+  }
+
+  .productoAmpliado {
+    width: 500px;
+    height: 500px;
   }
 }
 

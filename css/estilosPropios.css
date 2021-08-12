@@ -143,12 +143,23 @@ main {
   display: none; }
 
 /* Productos ampliados */
+.botonCeleste {
+  background-color: #1aa2a2;
+  border-color: #1aa2a2;
+  color: white; }
+
+.links {
+  font-weight: lighter;
+  font-size: 13px;
+  color: #1aa2a2; }
+
 .ocultarH1 {
   display: none; }
 
 .tituloProducto {
   font-weight: bolder;
-  font-size: 35px; }
+  font-size: 35px;
+  margin-bottom: 0px; }
 
 .precioProducto {
   font-weight: bold;
@@ -161,13 +172,17 @@ main {
   grid-template-columns: 500px 500px;
   justify-content: center; }
 
+.productoAmpliado {
+  width: 500px;
+  height: 500px; }
+
 .costoEnvio {
   display: flex;
   flex-direction: row;
   width: 150px;
   height: 20px;
   align-self: center;
-  margin: 5px 0px 5px 0px; }
+  margin: 30px 0px 5px 0px; }
 
 /* ANIMACIONES */
 .escalarProducto {
@@ -201,13 +216,26 @@ footer {
   .grilla {
     grid-template-columns: 175px 175px; }
   .ocultarTexto {
-    display: block; } }
+    display: block; }
+  .grillaProductosExpandidos {
+    display: block; }
+  .productoAmpliado {
+    width: 300px;
+    height: 300px; } }
 
 /* SmartPhone Modo Horizontal */
+@media only screen and (min-width: 480px) {
+  .productoAmpliado {
+    width: 400px;
+    height: 400px; } }
+
 /* Tablet Pequeña Modo Vertical*/
 @media only screen and (min-width: 600px) {
   .grilla {
-    grid-template-columns: 175px 175px 175px; } }
+    grid-template-columns: 175px 175px 175px; }
+  .productoAmpliado {
+    width: 550px;
+    height: 550px; } }
 
 /* Tablet 10´ Modo Vertical */
 @media only screen and (min-width: 768px) {
@@ -216,13 +244,21 @@ footer {
   .ocultarCarousel {
     display: block; }
   .ocultarTexto {
-    display: none; } }
+    display: none; }
+  .productoAmpliado {
+    width: 700px;
+    height: 700px; } }
 
 /* Tablet Horizontal y Deskstop */
 @media only screen and (min-width: 1024px) {
   .grilla {
     grid-template-columns: 175px 175px 175px 175px; }
   .ocultarTexto {
-    display: none; } }
+    display: none; }
+  .grillaProductosExpandidos {
+    display: grid; }
+  .productoAmpliado {
+    width: 500px;
+    height: 500px; } }
 
 /* Pantalla Panoramica*/
