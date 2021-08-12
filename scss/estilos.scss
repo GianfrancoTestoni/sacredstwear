@@ -7,6 +7,7 @@
 
 $negroConTransparencia: rgba(0, 0, 0, 0.705);
 $celestito: hsla(180, 72, 37, 1);
+$celestitoOscuro: hsla(180, 80, 30, 1);
 
 /* Estilo Header */
 
@@ -148,7 +149,6 @@ main {
 
 .cajaDeProductos {
   background-color: $negroConTransparencia;
-  border-radius: 5%;
   width: 170px;
   height: 245px;
   font-size: 16px;
@@ -168,6 +168,15 @@ main {
   font-family: "Montserrat", sans-serif;
 }
 
+.botonAgregarAlCarrito {
+  background-color: $celestito;
+  border-color: $celestitoOscuro;
+  color: white;
+  font-size: 12px;
+  width: 150px;
+  height: 25px;
+}
+
 .ocultarCarousel {
   display: none;
 }
@@ -178,7 +187,7 @@ main {
 
 /* Productos ampliados */
 
-.botonCeleste {
+.botonCalcular {
   background-color: $celestito;
   border-color: $celestito;
   color: white;
