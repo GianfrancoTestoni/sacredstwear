@@ -51,6 +51,9 @@ ul {
       display: none; }
 
 /* estilo cuerpo pagina */
+a:hover {
+  color: #1aa2a2; }
+
 body {
   display: flex;
   flex-direction: column;
@@ -131,17 +134,28 @@ main {
   color: white;
   text-decoration: none;
   font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Montserrat", sans-serif; }
 
+#linkDeProductos:hover {
+  color: #1aa2a2; }
+
 .botonAgregarAlCarrito {
-  background-color: #1aa2a2;
-  border-color: #0f8a8a;
-  color: white;
-  font-size: 12px;
+  background-color: #0d0d0d;
+  color: #1aa2a2;
+  font-size: 10px;
+  font-weight: bolder;
   width: 150px;
-  height: 25px; }
+  height: 25px;
+  padding: 3px; }
+
+.botonAgregarAlCarrito2 {
+  background-color: #0d0d0d;
+  color: #1aa2a2;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 285px;
+  height: 45px;
+  padding: 3px; }
 
 .ocultarCarousel {
   display: none; }
