@@ -148,15 +148,6 @@ main {
   height: 25px;
   padding: 3px; }
 
-.botonAgregarAlCarrito2 {
-  background-color: #0d0d0d;
-  color: #1aa2a2;
-  font-size: 15px;
-  font-weight: bolder;
-  width: 285px;
-  height: 45px;
-  padding: 3px; }
-
 .ocultarCarousel {
   display: none; }
 
@@ -167,7 +158,22 @@ main {
 .botonCalcular {
   background-color: #1aa2a2;
   border-color: #1aa2a2;
-  color: white; }
+  color: white;
+  height: 28px;
+  align-content: center; }
+
+.botonAgregarAlCarrito2 {
+  background-color: #0d0d0d;
+  color: #1aa2a2;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 283px;
+  height: 45px;
+  padding: 3px; }
+
+.botonTalle {
+  background-color: #0d0d0d;
+  color: #1aa2a2; }
 
 .links {
   font-weight: lighter;
